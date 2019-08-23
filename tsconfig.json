@@ -6,6 +6,11 @@
         "module": "commonjs",
         "strict": true, /* Enable all strict type-checking options. */
         "noImplicitAny": true, /* Raise error on expressions and declarations with an implied 'any' type. */
+        "strictFunctionTypes": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "noUnusedLocals": true,
         "lib": [
             "es2017",
             "es2016",
